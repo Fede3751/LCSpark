@@ -13,7 +13,7 @@ public final class Variables
 	public static final String	OUTPUT_SEPARATOR 	= "-------------------";
 	public static final String 	ACCESS_KEY 			= "";
 	public static final String	PRIVATE_KEY			= "";
-	public static final boolean AWS_MODE 			= true;
+	public static final boolean AWS_MODE 			= false;
 	public static final int 	CHECKPOINT_INTERVAL = 300;
 	public static int 			NO_SLICES			= 21;
 	public static float			CUT_PERCENTAGE 		= 1;
