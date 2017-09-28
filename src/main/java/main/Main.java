@@ -8,7 +8,7 @@ public class Main
 	{	
 		LCSJob job = LCSJob.getInstance();
 		
-		if((args.length == 6 && !args[0].equals("online")) || args.length != 5)
+		if(args.length != 5)
 		{
 			System.out.println("Usage mode: java infile cellSize no_partitions text_size output_log");
 			
